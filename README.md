@@ -1,10 +1,29 @@
-# Docker Images for Apache-storm
+apache-storm
+============
 
-This repository contains Dockerfiles and samples to build Docker images for apache storm componentns.
+Dockerfiles for building a storm cluster.
 
- - [Apache-Storm-1.1.0-Base Image](apache-storm/1.1.0)
- - [Apache-Storm-1.0.0-Base Image](apache-storm/1.0.0)
- 
-Phenompeople Linux images can be found in the [`Phenompeople Container Images repository`](https://hub.docker.com/u/phenompeople/dashboard/).
+The images are available directly from [phenompeople](https://hub.docker.com/u/phenompeople/)
 
-For support and certification information, please consult the documentation for each product
+##Pre-Requisites
+
+- install docker-engine [https://docs.docker.com/engine/installation/](https://docs.docker.com/engine/installation/)
+
+## Supported tags
+* **`1.1.0` ([apache-storm/1.1.0/Dockerfile](https://bitbucket.org/phenompeople/apache-storm/src/master/apache-storm/1.1.0/Dockerfile))**
+* **`1.0.0` ([apache-storm/1.0.0/Dockerfile](https://bitbucket.org/phenompeople/apache-storm/src/master/apache-storm/1.0.0/Dockerfile))**
+
+**NOTE:** `apache-storm` provides only the base images which are build on ONBUILD instructions. The ONBUILD instruction adds to the image a trigger instruction to be executed at a later time, when the image is used as the base for another build.
+
+## Usage of `onbuild` images
+
+These images can be used to bake your dependencies into an image by extending the plain storm images. To do so, create a custom `Dockerfile` like this:
+```
+FROM phenompeople/apache-storm
+```
+Don't forget to build that `Dockerfile`:
+```
+docker build --rm=true -t childimage .
+docker run --rm -t childimage
+```
+
