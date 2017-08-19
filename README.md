@@ -1,8 +1,4 @@
-[![Docker Automated build](https://travis-ci.org/phenompeople/apache-storm.svg?branch=master&style=plastic)](https://travis-ci.org/phenompeople/apache-storm)
-
-[![Docker Pulls](https://img.shields.io/docker/pulls/mashape/kong.svg?style=plastic)](https://travis-ci.org/phenompeople/apache-storm)
-
-[![Docker Build Status](https://img.shields.io/docker/build/jrottenberg/ffmpeg.svg?style=plastic)](https://travis-ci.org/phenompeople/apache-storm)
+[![Build Status](https://travis-ci.org/phenompeople/apache-storm.svg?branch=master)](https://travis-ci.org/phenompeople/apache-storm)
 
 Dockerfiles for building a storm cluster.
 
