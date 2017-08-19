@@ -1,3 +1,9 @@
+[![Docker Automated build](https://travis-ci.org/phenompeople/apache-storm.svg?branch=master&style=plastic)](https://travis-ci.org/phenompeople/apache-storm)
+
+[![Docker Pulls](https://img.shields.io/docker/pulls/mashape/kong.svg?style=plastic)](https://travis-ci.org/phenompeople/apache-storm)
+
+[![Docker Build Status](https://img.shields.io/docker/build/jrottenberg/ffmpeg.svg?style=plastic)](https://travis-ci.org/phenompeople/apache-storm)
+
 Dockerfiles for building a storm cluster.
 
 The images are available directly from [phenompeople organization] (https://hub.docker.com/u/phenompeople/)
@@ -111,5 +117,7 @@ docker run --rm -t childimage
 * Rajesh Jonnalagadda (<rajesh.jonnalagadda@phenompeople.com>)
 
 ## License and Authors
+
 License	::		Apache License
+
 Author		::		Phenompeople Pvt Ltd (<admin.squad@phenompeople.com>)
