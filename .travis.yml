@@ -1,0 +1,13 @@
+sudo: required
+
+language: c
+
+services:
+  - docker
+
+before_install:
+  - docker info
+  - docker build -t phenompeople/storm-ui:1.1.0 storm-ui/1.1.0/
+
+script:
+  - docker run -it --rm phenompeople/apache-storm:1.1.0 java -version

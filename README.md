@@ -1,13 +1,9 @@
-apache-storm
-============
-
 Dockerfiles for building a storm cluster.
 
 The images are available directly from [phenompeople organization] (https://hub.docker.com/u/phenompeople/)
 
 
-apache-storm
-==============
+## **apache-storm**
 
 #### Supported tags
 
@@ -34,13 +30,13 @@ docker build --rm=true -t childimage .
 docker run --rm -t childimage
 ```
 
-storm-ui
-==========
+## **storm-ui**
+
 
 ### Supported tags
 
-* **`1.1.0` ([storm-ui/1.1.0](https://bitbucket.org/phenompeople/apache-storm/src/master/storm-ui/1.1.0))**
-* **`1.0.0` ([storm-ui/1.0.0](https://bitbucket.org/phenompeople/apache-storm/src/master/storm-ui/1.0.0))**
+* **`1.1.0` ([storm-ui/1.1.0/Dockerfile](https://bitbucket.org/phenompeople/apache-storm/src/master/storm-ui/1.1.0))**
+* **`1.0.0` ([storm-ui/1.0.0/Dockerfile](https://bitbucket.org/phenompeople/apache-storm/src/master/storm-ui/1.0.0))**
 
 ### Pre-Requisites
 
@@ -60,13 +56,12 @@ storm-ui
 
 **Note:** Storm UI expects storm nimbus to be identified by hostname, in order to match hostname with host add optional -h option during run time     
 
-storm-nimbus
-=============
+## **storm-nimbus**
 
 ### Supported tags
 
-* **`1.1.0` ([storm-nimbus/1.1.0](https://bitbucket.org/phenompeople/apache-storm/src/master/storm-nimbus/1.1.0))**
-* **`1.0.0` ([storm-nimbus/1.0.0](https://bitbucket.org/phenompeople/apache-storm/src/master/storm-nimbus/1.0.0))**
+* **`1.1.0` ([storm-nimbus/1.1.0/Dockerfile](https://bitbucket.org/phenompeople/apache-storm/src/master/storm-nimbus/1.1.0))**
+* **`1.0.0` ([storm-nimbus/1.0.0/Dockerfile](https://bitbucket.org/phenompeople/apache-storm/src/master/storm-nimbus/1.0.0))**
 
 ### Pre-Requisites
 
@@ -86,13 +81,13 @@ storm-nimbus
 
 **Note:** Storm UI expects storm nimbus to be identified by hostname, in order to match hostname with host add optional -h option during run time     
 
-storm-supervisor
-================
+##**storm-supervisor**
+
 
 ### Supported tags
 
-* **`1.1.0` ([storm-supervisor/1.1.0](https://bitbucket.org/phenompeople/apache-storm/src/master/storm-supervisor/1.1.0))**
-* **`1.0.0` ([storm-supervisor/1.0.0](https://bitbucket.org/phenompeople/apache-storm/src/master/storm-supervisor/1.0.0))**
+* **`1.1.0` ([storm-supervisor/1.1.0/Dockerfile](https://bitbucket.org/phenompeople/apache-storm/src/master/storm-supervisor/1.1.0))**
+* **`1.0.0` ([storm-supervisor/1.0.0/Dockerfile](https://bitbucket.org/phenompeople/apache-storm/src/master/storm-supervisor/1.0.0))**
 
 ### Pre-Requisites
 
@@ -111,3 +106,10 @@ storm-supervisor
 1. To make image run even after reboot use extra option --restart=always
 
 ```$ docker run --restart=always --name=supervisor -v `pwd`/conf:/opt/storm/conf -td phenompeople/storm-supervisor```
+## Maintainers
+
+* Rajesh Jonnalagadda (<rajesh.jonnalagadda@phenompeople.com>)
+
+## License and Authors
+License	::		Apache License
+Author		::		Phenompeople Pvt Ltd (<admin.squad@phenompeople.com>)
