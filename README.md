@@ -1,4 +1,6 @@
 [![Build Status](https://travis-ci.org/phenompeople/apache-storm.svg?branch=master)](https://travis-ci.org/phenompeople/apache-storm)
+[![Docker Automated build](https://img.shields.io/docker/automated/jrottenberg/ffmpeg.svg)](https://travis-ci.org/phenompeople/apache-storm)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 Dockerfiles for building a storm cluster.
 
