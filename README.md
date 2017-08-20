@@ -1,5 +1,4 @@
 [![Build Status](https://travis-ci.org/phenompeople/apache-storm.svg?branch=master)](https://travis-ci.org/phenompeople/apache-storm)
-[![Docker Automated build](https://img.shields.io/docker/automated/jrottenberg/ffmpeg.svg)](https://travis-ci.org/phenompeople/apache-storm)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 Dockerfiles for building a storm cluster.
@@ -8,6 +7,10 @@ The images are available directly from [phenompeople organization] (https://hub.
 
 
 ## **apache-storm**
+
+[![Docker Automated build](https://img.shields.io/docker/automated/phenompeople/apache-storm.svg?style=plastic)](https://hub.docker.com/r/phenompeople/apache-storm/)
+[![Docker Build Status](https://img.shields.io/docker/build/phenompeople/apache-storm.svg?style=plastic)](https://hub.docker.com/r/phenompeople/apache-storm/)
+[![Docker Pulls](https://img.shields.io/docker/pulls/phenompeople/apache-storm.svg?style=plastic)](https://hub.docker.com/r/phenompeople/apache-storm/)
 
 #### Supported tags
 
@@ -36,6 +39,9 @@ docker run --rm -t childimage
 
 ## **storm-ui**
 
+[![Docker Automated build](https://img.shields.io/docker/automated/phenompeople/storm-ui.svg?style=plastic)](https://hub.docker.com/r/phenompeople/storm-ui/)
+[![Docker Build Status](https://img.shields.io/docker/build/phenompeople/storm-ui.svg?style=plastic)](https://hub.docker.com/r/phenompeople/storm-ui/)
+[![Docker Pulls](https://img.shields.io/docker/pulls/phenompeople/storm-ui.svg?style=plastic)](https://hub.docker.com/r/phenompeople/storm-ui/)
 
 ### Supported tags
 
@@ -62,6 +68,10 @@ docker run --rm -t childimage
 
 ## **storm-nimbus**
 
+[![Docker Automated build](https://img.shields.io/docker/automated/phenompeople/storm-nimubs.svg?style=plastic)](https://hub.docker.com/r/phenompeople/storm-nimbus/)
+[![Docker Build Status](https://img.shields.io/docker/build/phenompeople/storm-nimbus.svg?style=plastic)](https://hub.docker.com/r/phenompeople/storm-nimbus/)
+[![Docker Pulls](https://img.shields.io/docker/pulls/phenompeople/storm-nimbus.svg?style=plastic)](https://hub.docker.com/r/phenompeople/storm-nimbus/)
+
 ### Supported tags
 
 * **`1.1.0` ([storm-nimbus/1.1.0/Dockerfile](https://bitbucket.org/phenompeople/apache-storm/src/master/storm-nimbus/1.1.0))**
@@ -87,6 +97,9 @@ docker run --rm -t childimage
 
 ##**storm-supervisor**
 
+[![Docker Automated build](https://img.shields.io/docker/automated/phenompeople/storm-supervisor.svg?style=plastic)](https://hub.docker.com/r/phenompeople/storm-supervisor/)
+[![Docker Build Status](https://img.shields.io/docker/build/phenompeople/storm-supervisor.svg?style=plastic)](https://hub.docker.com/r/phenompeople/storm-supervisor/)
+[![Docker Pulls](https://img.shields.io/docker/pulls/phenompeople/storm-supervisor.svg?style=plastic)](https://hub.docker.com/r/phenompeople/storm-supervisor/)
 
 ### Supported tags
 
@@ -110,6 +123,7 @@ docker run --rm -t childimage
 1. To make image run even after reboot use extra option --restart=always
 
 ```$ docker run --restart=always --name=supervisor -v `pwd`/conf:/opt/storm/conf -td phenompeople/storm-supervisor```
+
 ## Maintainers
 
 * Rajesh Jonnalagadda (<rajesh.jonnalagadda@phenompeople.com>)
