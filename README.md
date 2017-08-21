@@ -98,7 +98,7 @@ docker run --rm -t childimage
 
 **Note:** Storm UI expects storm nimbus to be identified by hostname, in order to match hostname with host add optional -h option during run time     
 
-##**storm-supervisor**
+## **storm-supervisor**
 
 [![Docker Automated build](https://img.shields.io/docker/automated/phenompeople/storm-supervisor.svg?style=plastic)](https://hub.docker.com/r/phenompeople/storm-supervisor/)
 [![Docker Build Status](https://img.shields.io/docker/build/phenompeople/storm-supervisor.svg?style=plastic)](https://hub.docker.com/r/phenompeople/storm-supervisor/)
