@@ -15,6 +15,7 @@ The images are available directly from [phenompeople organization] (https://hub.
 #### Supported tags
 
 * **`1.1.0` ([apache-storm/1.1.0/Dockerfile](https://bitbucket.org/phenompeople/apache-storm/src/master/apache-storm/1.1.0/Dockerfile))**
+* **`1.0.1` ([apache-storm/1.0.1/Dockerfile](https://bitbucket.org/phenompeople/apache-storm/src/master/apache-storm/1.0.1/Dockerfile))**
 * **`1.0.0` ([apache-storm/1.0.0/Dockerfile](https://bitbucket.org/phenompeople/apache-storm/src/master/apache-storm/1.0.0/Dockerfile))**
 
 **NOTE:** `apache-storm` provides only the base images which are build on ONBUILD instructions. The ONBUILD instruction adds to the image a trigger instruction to be executed at a later time, when the image is used as the base for another build.
@@ -46,6 +47,7 @@ docker run --rm -t childimage
 ### Supported tags
 
 * **`1.1.0` ([storm-ui/1.1.0/Dockerfile](https://bitbucket.org/phenompeople/apache-storm/src/master/storm-ui/1.1.0))**
+* **`1.0.1` ([storm-ui/1.0.1/Dockerfile](https://bitbucket.org/phenompeople/apache-storm/src/master/storm-ui/1.0.1))**
 * **`1.0.0` ([storm-ui/1.0.0/Dockerfile](https://bitbucket.org/phenompeople/apache-storm/src/master/storm-ui/1.0.0))**
 
 ### Pre-Requisites
@@ -75,6 +77,7 @@ docker run --rm -t childimage
 ### Supported tags
 
 * **`1.1.0` ([storm-nimbus/1.1.0/Dockerfile](https://bitbucket.org/phenompeople/apache-storm/src/master/storm-nimbus/1.1.0))**
+* **`1.0.1` ([storm-nimbus/1.0.1/Dockerfile](https://bitbucket.org/phenompeople/apache-storm/src/master/storm-nimbus/1.0.1))**
 * **`1.0.0` ([storm-nimbus/1.0.0/Dockerfile](https://bitbucket.org/phenompeople/apache-storm/src/master/storm-nimbus/1.0.0))**
 
 ### Pre-Requisites
@@ -104,6 +107,7 @@ docker run --rm -t childimage
 ### Supported tags
 
 * **`1.1.0` ([storm-supervisor/1.1.0/Dockerfile](https://bitbucket.org/phenompeople/apache-storm/src/master/storm-supervisor/1.1.0))**
+* **`1.0.1` ([storm-supervisor/1.0.1/Dockerfile](https://bitbucket.org/phenompeople/apache-storm/src/master/storm-supervisor/1.0.1))**
 * **`1.0.0` ([storm-supervisor/1.0.0/Dockerfile](https://bitbucket.org/phenompeople/apache-storm/src/master/storm-supervisor/1.0.0))**
 
 ### Pre-Requisites
