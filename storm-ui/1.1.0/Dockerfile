@@ -1,6 +1,6 @@
 FROM phenompeople/apache-storm:1.1.0
 MAINTAINER Rajesh Jonnalagadda (<admin.squad@phenompeople.com>)
-EXPOSE 8080
+EXPOSE 8881
 COPY *-server.sh /opt/deployment/
 RUN mkdir -p ${STORM_HOME}/logs && \
     touch ${STORM_HOME}/logs/storm-ui.out && \
