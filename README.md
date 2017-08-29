@@ -50,6 +50,20 @@ docker run --rm -t childimage
 * **`1.0.1` ([storm-ui/1.0.1/Dockerfile](https://bitbucket.org/phenompeople/apache-storm/src/master/storm-ui/1.0.1))**
 * **`1.0.0` ([storm-ui/1.0.0/Dockerfile](https://bitbucket.org/phenompeople/apache-storm/src/master/storm-ui/1.0.0))**
 
+## **storm-ui-ro**
+
+This flavour of Storm UI will be used to access cluster, topology, component overview and metrics. Deactive, Activate, Kill and Rebalance topology options were removed  
+
+[![Docker Automated build](https://img.shields.io/docker/automated/phenompeople/storm-ui-ro.svg?style=plastic)](https://hub.docker.com/r/phenompeople/storm-ui-ro/)
+[![Docker Build Status](https://img.shields.io/docker/build/phenompeople/storm-ui-ro.svg?style=plastic)](https://hub.docker.com/r/phenompeople/storm-ui-ro/)
+[![Docker Pulls](https://img.shields.io/docker/pulls/phenompeople/storm-ui-ro.svg?style=plastic)](https://hub.docker.com/r/phenompeople/storm-ui-ro/)
+
+### Supported tags
+
+* **`1.1.0` ([storm-ui-ro/1.1.0/Dockerfile](https://bitbucket.org/phenompeople/apache-storm/src/master/storm-ui-ro/1.1.0))**
+* **`1.0.1` ([storm-ui-ro/1.0.1/Dockerfile](https://bitbucket.org/phenompeople/apache-storm/src/master/storm-ui-ro/1.0.1))**
+* **`1.0.0` ([storm-ui-ro/1.0.0/Dockerfile](https://bitbucket.org/phenompeople/apache-storm/src/master/storm-ui-ro/1.0.0))**
+
 ### Pre-Requisites
 
 - install docker-engine [https://docs.docker.com/engine/installation/](https://docs.docker.com/engine/installation/)
